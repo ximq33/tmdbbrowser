@@ -1,0 +1,73 @@
+
+
+.table-wrapper {
+    position: relative;
+}
+
+@media (max-width: 765px ) {
+    .table-wrapper.loading {
+        overflow: hidden;
+    }
+}
+
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.11);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1s ease 1s, visibility 0.1s ease 1s;
+    transition-delay: 0.05s;
+    backdrop-filter: blur(6px);
+}
+
+.loading-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+tr:hover .poster {
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+.poster {
+    max-width: 285px;
+    border-radius: 13px;
+}
+
+.image-column {
+    width: 285px;
+    height: auto;
+}
+
+.genre-badge {
+    background-color: #009901;
+    color: white;
+    margin-right: 3px;
+    border-radius: 13px;
+    font-size: 14px;
+}
+
+.release-date {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.9)
+}
+
+
+
+
+
+
+
+
+

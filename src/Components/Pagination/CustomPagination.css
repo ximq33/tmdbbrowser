@@ -1,0 +1,43 @@
+
+.pagination-rounded .page-link {
+    border-radius: 166px !important;
+    margin: 0 3px !important;
+    border: none;
+}
+
+.dropdown {
+    background-color: white;
+    color: black;
+    border-color: rgba(0, 0, 0, 0.17);
+}
+
+.page-link:focus {
+    box-shadow: none;
+    background-color: inherit;
+}
+
+.page-link:hover {
+    background-color: rgba(115, 115, 115, 0.13);
+    transition: 0.4s;
+}
+.goto-input::-webkit-inner-spin-button,
+.goto-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.goto-input{
+    width: 70px;
+}
+
+.goto-input:focus{
+    box-shadow: none;
+}
+
+.pagination {
+    margin: 0 auto;
+}
+
+.goto {
+    right: 0;
+}
